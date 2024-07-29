@@ -4,7 +4,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/kubearmor/sidekick/types"
+	"github.com/AmanKumar2696/sidekick/types"
 )
 
 // WebhookPost posts event to an URL

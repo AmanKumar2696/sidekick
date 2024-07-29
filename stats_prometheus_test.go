@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kubearmor/sidekick/types"
+	"github.com/AmanKumar2696/sidekick/types"
 )
 
 func TestFalcoNewCounterVec(t *testing.T) {

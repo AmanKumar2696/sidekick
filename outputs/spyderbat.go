@@ -10,9 +10,9 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/AmanKumar2696/sidekick/types"
 	"github.com/DataDog/datadog-go/statsd"
 	"github.com/google/uuid"
-	"github.com/kubearmor/sidekick/types"
 )
 
 func isSourcePresent(config *types.Configuration) (bool, error) {

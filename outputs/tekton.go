@@ -3,7 +3,7 @@ package outputs
 import (
 	"log"
 
-	"github.com/kubearmor/sidekick/types"
+	"github.com/AmanKumar2696/sidekick/types"
 )
 
 // TektonPost posts event to EventListner

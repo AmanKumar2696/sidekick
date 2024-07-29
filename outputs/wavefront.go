@@ -3,8 +3,8 @@ package outputs
 import (
 	"fmt"
 
+	"github.com/AmanKumar2696/sidekick/types"
 	"github.com/DataDog/datadog-go/statsd"
-	"github.com/kubearmor/sidekick/types"
 
 	wavefront "github.com/wavefronthq/wavefront-sdk-go/senders"
 )

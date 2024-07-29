@@ -10,7 +10,7 @@ import (
 	"github.com/DataDog/datadog-go/statsd"
 	"github.com/google/uuid"
 
-	"github.com/kubearmor/sidekick/types"
+	"github.com/AmanKumar2696/sidekick/types"
 )
 
 // NewEventHubClient returns a new output.Client for accessing the Azure Event Hub.

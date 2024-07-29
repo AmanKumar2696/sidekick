@@ -12,7 +12,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/kubearmor/sidekick/types"
+	"github.com/AmanKumar2696/sidekick/types"
 )
 
 func getConfig() *types.Configuration {

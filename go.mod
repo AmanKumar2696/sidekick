@@ -1,4 +1,4 @@
-module github.com/kubearmor/sidekick
+module github.com/AmanKumar2696/sidekick
 
 go 1.22.0
 

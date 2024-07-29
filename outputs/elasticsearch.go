@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/AmanKumar2696/sidekick/types"
 	"github.com/google/uuid"
-	"github.com/kubearmor/sidekick/types"
 )
 
 // ElasticsearchPost posts event to Elasticsearch

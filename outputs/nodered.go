@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"log"
 
-	"github.com/kubearmor/sidekick/types"
+	"github.com/AmanKumar2696/sidekick/types"
 )
 
 // NodeRedPost posts event to Slack

@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/AmanKumar2696/sidekick/types"
 	"github.com/DataDog/datadog-go/statsd"
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/kubearmor/sidekick/types"
 )
 
 type timescaledbPayload struct {

@@ -16,8 +16,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/google/uuid"
 
+	"github.com/AmanKumar2696/sidekick/types"
 	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/kubearmor/sidekick/types"
 )
 
 // NewYandexClient returns a new output.Client for accessing the Yandex API.

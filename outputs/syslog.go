@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/AmanKumar2696/sidekick/types"
 	"github.com/DataDog/datadog-go/statsd"
-	"github.com/kubearmor/sidekick/types"
 )
 
 func NewSyslogClient(config *types.Configuration, stats *types.Statistics, promStats *types.PromStatistics, statsdClient, dogstatsdClient *statsd.Client) (*Client, error) {

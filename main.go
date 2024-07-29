@@ -10,8 +10,8 @@ import (
 	"github.com/DataDog/datadog-go/statsd"
 	"github.com/embano1/memlog"
 
-	"github.com/kubearmor/sidekick/outputs"
-	"github.com/kubearmor/sidekick/types"
+	"github.com/AmanKumar2696/sidekick/outputs"
+	"github.com/AmanKumar2696/sidekick/types"
 )
 
 // Globale variables

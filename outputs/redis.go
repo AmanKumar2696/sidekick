@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/AmanKumar2696/sidekick/types"
 	"github.com/DataDog/datadog-go/statsd"
 	"github.com/google/uuid"
-	"github.com/kubearmor/sidekick/types"
 	"github.com/redis/go-redis/v9"
 )
 

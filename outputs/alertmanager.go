@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/kubearmor/sidekick/types"
+	"github.com/AmanKumar2696/sidekick/types"
 )
 
 type alertmanagerPayload struct {

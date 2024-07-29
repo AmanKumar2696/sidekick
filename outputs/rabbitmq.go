@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
+	"github.com/AmanKumar2696/sidekick/types"
 	"github.com/DataDog/datadog-go/statsd"
-	"github.com/kubearmor/sidekick/types"
 	"github.com/streadway/amqp"
 )
 

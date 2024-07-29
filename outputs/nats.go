@@ -10,7 +10,7 @@ import (
 	"github.com/google/uuid"
 	nats "github.com/nats-io/nats.go"
 
-	"github.com/kubearmor/sidekick/types"
+	"github.com/AmanKumar2696/sidekick/types"
 )
 
 var slugRegularExpression = regexp.MustCompile("[^a-z0-9]+")

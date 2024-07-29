@@ -1,4 +1,4 @@
-module github.com/kubearmor/sidekick/tests
+module github.com/AmanKumar2696/sidekick/tests
 
 go 1.20
 

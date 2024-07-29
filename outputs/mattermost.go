@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/kubearmor/sidekick/types"
+	"github.com/AmanKumar2696/sidekick/types"
 )
 
 func newMattermostPayload(kubearmorpayload types.KubearmorPayload, config *types.Configuration) slackPayload {

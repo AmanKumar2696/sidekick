@@ -26,7 +26,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/sts"
 	"github.com/google/uuid"
 
-	"github.com/kubearmor/sidekick/types"
+	"github.com/AmanKumar2696/sidekick/types"
 )
 
 // NewAWSClient returns a new output.Client for accessing the AWS API.

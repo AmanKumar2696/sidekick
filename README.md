@@ -107,7 +107,7 @@ helm upgrade --install sidekick kubearmor/sidekick --set config.syslog.host=sysl
 
 - **Webhook**
 - [**Node-RED**](https://nodered.org/)
-- [**WebUI**](https://github.com/kubearmor/sidekick-ui) (a Web UI for displaying latest events in real time)
+- [**WebUI**](https://github.com/AmanKumar2696/sidekick-ui) (a Web UI for displaying latest events in real time)
 
 ### SIEM
 
@@ -1194,8 +1194,8 @@ In above example, the same client certificate will be used for both Alertmanager
 The daemon exposes the common _Golang_ metrics and some custom values in JSON
 format. It's useful for monitoring purpose.
 
-![expvar json](https://github.com/kubearmor/sidekick/raw/master/imgs/expvar_json.png)
-![expvarmon](https://github.com/kubearmor/sidekick/raw/master/imgs/expvarmon.png)
+![expvar json](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/expvar_json.png)
+![expvarmon](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/expvarmon.png)
 
 ### Prometheus
 
@@ -1204,7 +1204,7 @@ The daemon exposes a `prometheus` endpoint on URI `/metrics`.
 ### StatsD / DogStatsD
 
 The daemon is able to push its metrics to a StatsD/DogstatsD server. See
-[Configuration](https://github.com/kubearmor/sidekick#configuration)
+[Configuration](https://github.com/AmanKumar2696/sidekick#configuration)
 section for how-to.
 
 ### AWS Policy example
@@ -1335,45 +1335,45 @@ The name from the table should match with the `hypertable` output configuration.
 
 (SLACK_OUTPUTFORMAT="**all**")
 
-![slack example](https://github.com/kubearmor/sidekick/raw/master/imgs/slack.png)
+![slack example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/slack.png)
 
 (SLACK_OUTPUTFORMAT="**text**")
 
-![slack no fields example](https://github.com/kubearmor/sidekick/raw/master/imgs/slack_no_fields.png)
+![slack no fields example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/slack_no_fields.png)
 
 (SLACK_OUTPUTFORMAT="**fields**" and SLACK_MESSAGEFORMAT="**Alert :
 rule \*{{ .Rule }}\* triggered by
 user \*{{ index .OutputFields \"user.name\" }}\***")
 
-![slack message format example](https://github.com/kubearmor/sidekick/raw/master/imgs/slack_fields_messageformat.png)
+![slack message format example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/slack_fields_messageformat.png)
 
 ### Mattermost
 
-![mattermost example](https://github.com/kubearmor/sidekick/raw/master/imgs/mattermost.png)
+![mattermost example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/mattermost.png)
 
 ### Teams
 
 (TEAMS_OUTPUTFORMAT="**all**")
 
-![teams example](https://github.com/kubearmor/sidekick/raw/master/imgs/teams.png)
+![teams example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/teams.png)
 
 (TEAMS_OUTPUTFORMAT="**text**")
 
-![teams facts only](https://github.com/kubearmor/sidekick/raw/master/imgs/teams_text.png)
+![teams facts only](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/teams_text.png)
 
 ### Datadog
 
 _(Tip: filter on `sources: kubearmor`)_
 
-![datadog example](https://github.com/kubearmor/sidekick/raw/master/imgs/datadog.png)
+![datadog example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/datadog.png)
 
 ### AlertManager
 
-![alertmanager example](https://github.com/kubearmor/sidekick/raw/master/imgs/alertmanager.png)
+![alertmanager example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/alertmanager.png)
 
 ### Elasticsearch (with Kibana)
 
-![kibana example](https://github.com/kubearmor/sidekick/raw/master/imgs/kibana.png)
+![kibana example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/kibana.png)
 
 ### Influxdb
 
@@ -1395,43 +1395,43 @@ time                akey    bkey    ckey    priority rule      value
 
 ### Loki (with Grafana)
 
-![loki example](https://github.com/kubearmor/sidekick/raw/master/imgs/loki.png)
+![loki example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/loki.png)
 
 ### AWS SQS
 
-![aws sqs example](https://github.com/kubearmor/sidekick/raw/master/imgs/aws_sqs.png)
+![aws sqs example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/aws_sqs.png)
 
 ### SMTP
 
 (SMTP_OUTPUTFORMAT="**html**")
 
-![smtp html example](https://github.com/kubearmor/sidekick/raw/master/imgs/smtp_html.png)
+![smtp html example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/smtp_html.png)
 
 (SMTP_OUTPUTFORMAT="**text**")
 
-![smtp plaintext example](https://github.com/kubearmor/sidekick/raw/master/imgs/smtp_plaintext.png)
+![smtp plaintext example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/smtp_plaintext.png)
 
 ### Opsgenie
 
-![opsgenie example](https://github.com/kubearmor/sidekick/raw/master/imgs/opsgenie.png)
+![opsgenie example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/opsgenie.png)
 
 ### Discord
 
-![discord example](https://github.com/kubearmor/sidekick/raw/master/imgs/discord.png)
+![discord example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/discord.png)
 
 ### Google Chat
 
 (GOOGLECHAT_OUTPUTFORMAT="**all**")
 
-![google chat example](https://github.com/kubearmor/sidekick/raw/master/imgs/google_chat_no_fields.png)
+![google chat example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/google_chat_no_fields.png)
 
 (GOOGLECHAT_OUTPUTFORMAT="**text**")
 
-![google chat text example](https://github.com/kubearmor/sidekick/raw/master/imgs/google_chat_example.png)
+![google chat text example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/google_chat_example.png)
 
 ### Dynatrace
 
-![Dynatrace example](https://github.com/kubearmor/sidekick/raw/master/imgs/dynatrace.png)
+![Dynatrace example](https://github.com/AmanKumar2696/sidekick/raw/master/imgs/dynatrace.png)
 
 ## Installing Policy Report Custom Resource Definition (CRD)
 

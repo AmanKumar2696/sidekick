@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/kubearmor/sidekick/outputs"
-	"github.com/kubearmor/sidekick/types"
+	"github.com/AmanKumar2696/sidekick/outputs"
+	"github.com/AmanKumar2696/sidekick/types"
 )
 
 func getInitStats() *types.Statistics {

@@ -7,7 +7,7 @@ import (
 
 	stan "github.com/nats-io/stan.go"
 
-	"github.com/kubearmor/sidekick/types"
+	"github.com/AmanKumar2696/sidekick/types"
 )
 
 // StanPublish publishes event to NATS Streaming

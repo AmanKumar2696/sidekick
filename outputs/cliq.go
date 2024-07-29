@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
+	"github.com/AmanKumar2696/sidekick/types"
 	"github.com/google/uuid"
-	"github.com/kubearmor/sidekick/types"
 )
 
 // Cliq API reference: https://www.zoho.com/cliq/help/restapi/v2/
